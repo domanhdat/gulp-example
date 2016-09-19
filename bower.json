@@ -1,0 +1,21 @@
+{
+  "name": "angular1.5-ui.router",
+  "authors": [
+    "hungtrinh <trinhduchung@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.3.1",
+    "angular": "angularjs#1.5.8"
+  }
+}

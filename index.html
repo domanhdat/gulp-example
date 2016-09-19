@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+</head>
+<body ng-app="app">
+<a ui-sref="home">Home</a>
+<a ui-sref="about">About</a>
+<ui-view></ui-view>
+
+<!-- inject:js -->
+<script src="/app/layout/menu.component.js"></script>
+<script src="/app/layout/header.component.js"></script>
+<script src="/app/layout/footer.component.js"></script>
+<script src="/app/app.module.js"></script>
+<script src="/app/home/home.component.js"></script>
+<script src="/app/about/about.component.js"></script>
+<script src="/app/app.router.js"></script>
+<!-- endinject -->
+</body>
+</html>
